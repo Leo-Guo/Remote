@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="通信引擎">
+      <UniqueIdentifier>{2f8d2cf6-64b8-4076-85ba-872dc5b301d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="登陆信息">
+      <UniqueIdentifier>{4f8eefbe-474c-4701-b95f-402e6c08ad65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="杂项">
+      <UniqueIdentifier>{81271007-3549-4bb9-9c05-b39f2186193b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内核管理">
+      <UniqueIdentifier>{10348ab9-4ac2-468f-a91b-040fd3df6813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="即时消息">
+      <UniqueIdentifier>{e3a5b107-b4ac-4e8d-8bbd-de8ab119ea4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工程">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="系统管理">
+      <UniqueIdentifier>{23c9c769-5c52-45ba-bcf8-668f3ee5a96f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cmd管理">
+      <UniqueIdentifier>{a48d5a9b-d737-474a-bd9a-bed9c9b5e438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="远程控制">
+      <UniqueIdentifier>{933b64a1-b328-4b1d-a68f-fb303864207f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="服务管理">
+      <UniqueIdentifier>{2d21eadd-cffd-464f-92f0-7230253f21d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="注册表管理">
+      <UniqueIdentifier>{9bfac8e3-e112-46c7-85f8-71e271eed3d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文件管理">
+      <UniqueIdentifier>{c128cd98-0559-4c3a-bede-01ccb6ab3877}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPClient.h">
+      <Filter>通信引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>登陆信息</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="_CArray.h">
+      <Filter>杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="zconf.h">
+      <Filter>杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib.h">
+      <Filter>杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>内核管理</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelManager.h">
+      <Filter>内核管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientInstantManager.h">
+      <Filter>即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientProcessManager.h">
+      <Filter>系统管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientWindowManager.h">
+      <Filter>系统管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientCmdManager.h">
+      <Filter>Cmd管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientRemoteControll.h">
+      <Filter>远程控制</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenSpy.h">
+      <Filter>远程控制</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientServiceManager.h">
+      <Filter>服务管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientRegisterManager.h">
+      <Filter>注册表管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientFileManager.h">
+      <Filter>文件管理</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>工程</Filter>
+    </ClCompile>
+    <ClCompile Include="Dll.cpp">
+      <Filter>工程</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>工程</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPClient.cpp">
+      <Filter>通信引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>登陆信息</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>内核管理</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelManager.cpp">
+      <Filter>内核管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientInstantManager.cpp">
+      <Filter>即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientProcessManager.cpp">
+      <Filter>系统管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientWindowManager.cpp">
+      <Filter>系统管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientCmdManager.cpp">
+      <Filter>Cmd管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientRemoteControll.cpp">
+      <Filter>远程控制</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenSpy.cpp">
+      <Filter>远程控制</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientServiceManager.cpp">
+      <Filter>服务管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientRegisterManager.cpp">
+      <Filter>注册表管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientFileManager.cpp">
+      <Filter>文件管理</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source.def">
+      <Filter>工程</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Dll.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\InstantMessage.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
